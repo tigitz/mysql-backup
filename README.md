@@ -99,7 +99,7 @@ In most scenarios, this will not affect your backup process negatively. However,
 
 In this case, you have two options:
 
-* Run the container as root, `docker run --user 0 ... ` or, in i`docker-compose.yml`, `user: "0"`
+* Run the container as root, `docker run --user 0 ... ` or, in `docker-compose.yml`, `user: "0"`
 * Ensure your mounted directory is writable as UID or GID `1005`.
 
 
